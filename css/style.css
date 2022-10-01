@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{width: 100%;background-color: lightblue;}
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  font-weight: 300;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align:center;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+div#wrap{border: 3px solid #707070; width: 900px; height: 170px;line-height: 3;border-radius: 20px;}
+
+button{
+  background-color: tomato; border: none;border-radius: 20px; width: 100px;height: 34px;}
+input{
+  width: 300px;height: 30px;border-radius:10px ;background-color: #fff;}
